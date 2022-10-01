@@ -1,38 +1,68 @@
-.App {
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap');
+.box1{
+}
+.lit{
+  background: white;
+  color: black;
+}
+.dark{
+  background:black;
+  color: white;
+}
+.dabba1{
+  /* border: 1px solid red; */
+}
+.dabba3{
+  padding: 50px;
+    box-shadow: rgb(50 50 93 / 25%) 0px 6px 12px -2px, rgb(0 0 0 / 30%) 0px 3px 7px -3px;
+    background: linear-gradient(45deg, #9787ff, #78f0ff);
+}
+.dabba2{
+  background: url(./images/bgImg.jpg);
+  /* background-size: 100% 100%; */
+  background-repeat: no-repeat;
+  height: 200px;
+  border-bottom-left-radius:20px ;
+  border-bottom-right-radius:20px ;
+}
+.inputFiled{
+  width: 75%;
+  border-radius: 50px;
+  border: none;
+  padding: 8px 16px;
+  font-size: 20px;
+  align-items: center;
+  margin-bottom: 16px;
+}
+.clearBtn{
+  background:  #3b48be !important;
+  border: none !important;
+  color: #fff !important;
+  box-shadow: 0px 0px 3px #8c97fd !important;
+  font-size: 20px !important ;
+  width: 50%;
+}
+.box1{
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.box2 {
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  align-items: flex-start;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  flex-direction: column;
 }
-
-.App-link {
-  color: #61dafb;
+.box2 ul li {
+  margin: 5px 0;
+  font-weight: 500;
+  font-size: 18px;
+  font-family: 'Poppins', sans-serif;
+  max-width: 70%;
+  list-style: none;
+  border-bottom: 2px solid;
+  line-height: 35px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.box2 ul {
+  width: 100%;
+  padding: 0;
 }
